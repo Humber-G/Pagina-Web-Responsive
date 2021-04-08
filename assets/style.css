@@ -1,0 +1,27 @@
+* {
+    border: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header a#cart{
+	background-image: url(https://pantryshelfwallawalla.org/wp-content/uploads/2019/03/shopping-circle-green-512.png);
+	background-size: cover;
+}
+
+a#cart{
+    color: transparent;
+}
+
+@keyframes cart{
+	from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+header a#cart:hover{
+	animation: cart linear 0.5s;
+}
