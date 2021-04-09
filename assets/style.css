@@ -1,3 +1,7 @@
+body{
+	background-image: url(https://thumbs.gfycat.com/CanineSameEwe-small.gif);
+}
+
 header a#cart{
 	background-image: url(https://images.vexels.com/media/users/3/200097/isolated/preview/942820836246f08c2d6be20a45a84139-shopping-cart-icon-shopping-cart-by-vexels.png);
 	background-size: cover;
@@ -27,4 +31,9 @@ footer a#cart{
 
 footer a#cart:hover{
 	animation: cart linear 0.5s;
+}
+
+.row{
+	display: flex;
+	justify-content: space-evenly;
 }
