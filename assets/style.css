@@ -5,7 +5,7 @@
 }
 
 header a#cart{
-	background-image: url(https://pantryshelfwallawalla.org/wp-content/uploads/2019/03/shopping-circle-green-512.png);
+	background-image: url(https://images.vexels.com/media/users/3/200097/isolated/preview/942820836246f08c2d6be20a45a84139-shopping-cart-icon-shopping-cart-by-vexels.png);
 	background-size: cover;
 }
 
@@ -23,5 +23,14 @@ a#cart{
 }
 
 header a#cart:hover{
+	animation: cart linear 0.5s;
+}
+
+footer a#cart{
+	background-image: url(https://images.vexels.com/media/users/3/200097/isolated/preview/942820836246f08c2d6be20a45a84139-shopping-cart-icon-shopping-cart-by-vexels.png);
+	background-size: cover;
+}
+
+footer a#cart:hover{
 	animation: cart linear 0.5s;
 }
